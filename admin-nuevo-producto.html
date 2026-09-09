@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuevo Producto - Ferretería Los Maestros</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="logo-container">
+            <img src="assets/img/logo.jpg" alt="Logo Ferretería Los Maestros" class="logo"> /* Esto cambió */
+            <h1>Gestión de Productos</h1>
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="admin-dashboard.html">Dashboard</a></li>
+                <li><a href="admin-productos.html">Volver a Productos</a></li>
+                <li><a href="login.html">Cerrar Sesión</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="admin-section">
+            <h2>Agregar Nuevo Producto</h2>
+            <form id="newProductForm" class="custom-form">
+                
+                <div class="form-group">
+                    <label for="prodCode">Código de Producto:</label>
+                    <input type="text" id="prodCode" placeholder="Ej: MC011" required>
+                    <span id="prodCodeError" class="error-msg"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="prodName">Nombre del Producto:</label>
+                    <input type="text" id="prodName" placeholder="Ej: Cemento Especial 25kg" required>
+                    <span id="prodNameError" class="error-msg"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="prodCategory">Categoría:</label>
+                    <select id="prodCategory" required>
+                        <option value="">Seleccione Categoría</option>
+                        <option value="Mat. Construcción">Mat. Construcción</option>
+                        <option value="Pinturas">Pinturas</option>
+                        <option value="Herramientas">Herramientas</option>
+                        <option value="Gasfitería">Gasfitería</option>
+                        <option value="Electricidad">Electricidad</option>
+                        <option value="Tornillería">Tornillería</option>
+                        <option value="Madera">Madera</option>
+                        <option value="Seguridad">Seguridad</option>
+                        <option value="Jardín">Jardín</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="prodPrice">Precio Venta (CLP):</label>
+                    <input type="number" id="prodPrice" min="1" placeholder="Ej: 5990" required>
+                    <span id="prodPriceError" class="error-msg"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="prodStock">Stock Inicial:</label>
+                    <input type="number" id="prodStock" min="0" placeholder="Ej: 50" required>
+                </div>
+
+                <div class="form-actions">
+                    <a href="admin-productos.html" class="btn-secondary">Cancelar</a>
+                    <button type="submit" class="btn-primary">Guardar Producto</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <p>&copy; 2026 Ferretería Los Maestros - Panel Interno</p>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
