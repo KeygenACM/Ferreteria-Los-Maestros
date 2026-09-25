@@ -13,7 +13,8 @@ Plataforma web para la gestión comercial y control de inventarios de la Ferrete
 La aplicación permite la consulta de stock de más de 800 productos en tiempo real, reservas web mediante carrito de compras, 
 gestión digital de cuentas corrientes para contratistas autorizados y alertas de reposición de stock mínimo para el dueño.
 
-```## Estructura del proyecto
+## Estructura del proyecto
+```
 src/
 ├── components/
 │   ├── atoms/
