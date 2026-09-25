@@ -6,14 +6,14 @@
 - Jonathan Ulloa (jo.ulloan@duocuc.cl)
 
 ## Caso
-DSY1104 - Forma E - Ferretería Los Maestros
+Ferretería Los Maestros
 
 ## Descripción del caso
 Plataforma web para la gestión comercial y control de inventarios de la Ferretería Los Maestros (La Serena). 
 La aplicación permite la consulta de stock de más de 800 productos en tiempo real, reservas web mediante carrito de compras, 
 gestión digital de cuentas corrientes para contratistas autorizados y alertas de reposición de stock mínimo para el dueño.
 
-## Estructura del proyecto
+```## Estructura del proyecto
 src/
 ├── components/
 │   ├── atoms/
@@ -26,7 +26,7 @@ src/
 │   └── templates/
 └── pages/
 └── LoginPage.jsx
-
+```
 
 ## Tecnologías
 - React (Vite)
