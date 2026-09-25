@@ -41,7 +41,8 @@ npm install
 npm run dev
 ```
 Material complementario
-```Carpeta pública de Google Drive con documentos oficiales (ERS Anexo 4 y Planilla Anexo 2):
+Carpeta pública de Google Drive con documentos oficiales (ERS Anexo 4 y Planilla Anexo 2):
+```
 https://docs.google.com/document/d/1gn2ftEl9BwI0thx5feYQeSx5lzhmrtxi4Wu2zjdwkgE/edit?tab=t.0
 ```
 
